@@ -61,6 +61,7 @@ class Particle {
 
         // Apply the force
         this.x += forceDirectionX * force * 5;
+        
         this.y += forceDirectionY * force * 5;
       }
     }

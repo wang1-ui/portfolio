@@ -20,6 +20,7 @@
         <a href="#home">Home</a>
         <a href="#about">About Me</a>
         <a href="#skill">Skills</a>
+        <a href="#projects">Projects</a>
         <a href="#contact">Contact</a>
       </ul>
   
@@ -76,50 +77,183 @@
 
   </section>
 
-  <section class="skill" id="skill">
-    <canvas id="particleCanvas"></canvas>
-    <h1>My Skills</h1>
-    <p>I`m always willing to learning & Improving.</p>
-    <div class="logos">
-      <div class="box1">
-      <h1>Web Development</h1>
-      <div class="weblogo">
-      <img src="logo/html.png" style="width: 100px; border-radius: 60px;" alt="">
-      
-      <img src="logo/css.png" style="width: 170px; border-radius: 60px;" alt="">
-      
-      <img src="logo/js.png" style="width: 100px; border-radius: 60px;" alt="">
-      <img src="logo/cprogramming.jpg1" style="width: 100px; border-radius: 60px;" alt="">
-      <img src="logo/c++programming.png" style="width: 100px; border-radius: 60px;" alt="">
-      </div>
-      </div>
-    <div class="box2">
-      <p1>Graphics Design</p1>
-      <div class="graphiclogo">
-      <img src="logo/fresco.png" style="width: 100px; border-radius: 60px;" alt="">
-      <img] src="logo/photoshop.png" style="width: 100px; border-radius: 60px;" alt="">
-      <img src="logo/premiumpro.png" style="width: 100px; border-radius: 60px;" alt="">
-    </div>
-    </div>
+  <section class="skills-section" id="skill">
+    <div class="skillbox">
+      <canvas id="particleCanvas"></canvas>
+      <h1>My Skills</h1>
+      <p>I`m always willing to learn & improve.</p>
     </div>
 
-  </section>
-  <section class="contact" id="contact">
-    <h1>Contact Me</h1>
-    <p1>Feel free to contact me for any queries or collaborations.</p1>
-    <div class="contactform">
-      <form action="https://formspree.io/f/xjvowzqk" method="POST">
-        <input type="text" name="name" placeholder="Your Name" required>
-        <input type="email" name="_replyto" placeholder="Your Email" required>
-        <textarea name="message" rows="5" placeholder="Your Message"></textarea>
-        <button type="submit">Send Message</button>
-      </form>
+    <div class="rows">
+
+      <!-- Programming Skills -->
+      <div class="col">
+        <div class="sub-title">
+          <h2>Programming Skills</h2>
+        </div>
+
+        <div class="skills-container">
+
+          <div class="skill">
+            <div class="subject">HTML</div>
+            <div class="progress-bar">
+              <div class="progress" style="--progress-width: 90%;"></div>
+            </div>
+          </div>
+
+          <div class="skill">
+            <div class="subject">CSS</div>
+            <div class="progress-bar">
+              <div class="progress" style="--progress-width: 75%;"></div>
+            </div>
+          </div>
+
+          <div class="skill">
+            <div class="subject">JavaScript</div>
+            <div class="progress-bar">
+              <div class="progress" style="--progress-width: 60%;"></div>
+            </div>
+          </div>
+
+          <div class="skill">
+            <div class="subject">C++</div>
+            <div class="progress-bar">
+              <div class="progress" style="--progress-width: 45%;"></div>
+            </div>
+          </div>
+
+          <div class="skill">
+            <div class="subject">Java</div>
+            <div class="progress-bar">
+              <div class="progress" style="--progress-width: 55%;"></div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+      <!-- Designing Skills -->
+      <div class="col">
+        <div class="sub-title">
+          <h2>Designing Skills</h2>
+        </div>
+
+        <div class="skills-container">
+
+          <div class="skill">
+            <div class="subject">Photoshop</div>
+            <div class="progress-bar">
+              <div class="progress" style="--progress-width: 85%;"></div>
+            </div>
+          </div>
+
+          <div class="skill">
+            <div class="subject">Illustrator</div>
+            <div class="progress-bar">
+              <div class="progress" style="--progress-width: 65%;"></div>
+            </div>
+          </div>
+
+          <div class="skill">
+            <div class="subject">Fresco</div>
+            <div class="progress-bar">
+              <div class="progress" style="--progress-width: 90%;"></div>
+            </div>
+          </div>
+
+          <div class="skill">
+            <div class="subject">Premiere Pro</div>
+            <div class="progress-bar">
+              <div class="progress" style="--progress-width: 45%;"></div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+
     </div>
   </section>
+  
+
+
+  <section class="myworks" id="projects">
+    <div class ="section-header">
+      <h2>My Works</h2>
+
+    </div>
+    
+  
+    <div class="works">
+      <!-- Card 1 -->
+      <div class="card">
+        <a href="https://potatofry.vercel.app/" class="thumb">
+          <img src="propic/potatofry.png" alt="Project 1" />
+        </a>
+        <div class="card-body">
+          <h3>Potato Fry website</h3>
+          <p class="desc">A crispy and fun website showcasing delicious potato recipes with an easy-to-navigate design built with semantic HTML & CSS.</p>
+          <div class="tags"><span>HTML</span><span>CSS</span><span>Responsive</span></div>
+          <div class="links"><a href="https://potatofry.vercel.app/">Live</a><a href="https://github.com/wang1-ui/potatofry">GitHub</a></div>
+        </div>
+      </div>
+  
+      <!-- Card 2 -->
+      <div class="card">
+        <a href="https://tiktaktoe-gray.vercel.app/" class="thumb">
+          <img src="propic/tiktaktoe.png" alt="Project 2" />
+        </a>
+        <div class="card-body">
+          <h3>Tic Tac Toe</h3>
+          <p class="desc">A fun twist on the classic game, featuring Maya and Baba, made with HTML, CSS, and JavaScript.</p>
+          <div class="tags"><span>HTML</span><span>CSS</span><span>JAVA SCRIPT</span></div>
+          <div class="links"><a href="https://tiktaktoe-gray.vercel.app/">PLAY</a><a href="https://github.com/wang1-ui/tiktaktoe">GitHub</a></div>
+        </div>
+      </div>
+  
+      <!-- Card 3 -->
+      <div class="card">
+        <a href="https://wang1-ui.github.io/sns/" class="thumb">
+          <img src="propic/3d.png" alt="Project 3 " />
+        </a>
+        <div class="card-body">
+          <h3>3D SNS</h3>
+          <p class="desc">3D social media link buttons created with HTML and CSS, featuring clean design and interactive effects.</p>
+          <div class="tags"><span>HTML</span><span>CSS</span></div>
+          <div class="links"><a href="https://wang1-ui.github.io/sns/">Live</a><a href="https://github.com/wang1-ui/sns">GitHub</a></div>
+        </div>
+      </div>
+    </div>
+  
+    <!-- View More Button -->
+    <div class="view-more">
+      <a href="https://github.com/wang1-ui">View More →</a>
+    </div>
+  </section>
+  
+
+  
+
+  <section class="contact" id="contact">
+    <h2 class="heading">Contact Me</h2>
+    <p>Feel free to contact me for any queries or collaborations.</p>
+  
+    <form class="input-form">
+      <input type="text" name="name" placeholder="Your Name" required>
+      <input type="email" name="email" placeholder="Your Email" required>
+      <input type="tel" name="phone" placeholder="Your Phone Number" required>
+  
+      <textarea name="message" rows="5" placeholder="Your Message"></textarea>
+      <button type="submit">Send Message</button>
+    </form>
+
+    
+  </section>
+  
   <footer>
     <p>© 2023 Sandeep Majhi. All rights reserved.</p>
     <p>Designed by Sandeep Majhi</p>
   </footer>
+  
   <div class="scroll-to-top">
     <a href="#home"><i class="fa-solid fa-arrow-up"></i></a>
   </div>
